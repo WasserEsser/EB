@@ -1,0 +1,11 @@
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\SteroidsBlitzcrank.exe.config
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\SteroidsBlitzcrank.exe
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\SteroidsBlitzcrank.pdb
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\EloBuddy.dll
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\EloBuddy.SDK.dll
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\SharpDX.dll
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\SharpDX.Direct3D9.dll
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\bin\Release\Newtonsoft.Json.dll
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\obj\Release\SteroidsBlitzcrank.csprojResolveAssemblyReference.cache
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\obj\Release\SteroidsBlitzcrank.exe
+E:\Visual studio Stuff\1\Games\WordGuess\SteroidsBlitzcrank\SteroidsBlitzcrank\obj\Release\SteroidsBlitzcrank.pdb
