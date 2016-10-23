@@ -41,7 +41,7 @@ namespace SteroidsBlitzcrank
             Q = new Spell.Skillshot(spellSlot: SpellSlot.Q, spellRange: 925, skillShotType: SkillShotType.Linear, castDelay: 220, spellSpeed: 1750, spellWidth: 70)
             { AllowedCollisionCount = 0 };
             W = new Spell.Active(SpellSlot.W);
-            E = new Spell.Active(SpellSlot.E, 150);
+            E = new Spell.Active(SpellSlot.E, 250);
             R = new Spell.Active(SpellSlot.R, 600);
 
 
@@ -67,9 +67,14 @@ namespace SteroidsBlitzcrank
         {
             var target = TargetSelector.GetTarget(Q.Range, DamageType.Magical);
 
-        if (target == null)
+            if (target == null)
             {
                 return;
+            }
+
+            if (ComboMenu["W"].Cast<CheckBox>().CurrentValue)
+            {
+                W.Cast();
             }
             if (ComboMenu["Q"].Cast<CheckBox>().CurrentValue)
             {
@@ -77,27 +82,17 @@ namespace SteroidsBlitzcrank
                 if (target.IsValidTarget(Q.Range) && Q.IsReady() && Qpred.HitChance >= HitChance.High)
                 {
                     Q.Cast(target);
-                    {
-                        if (ComboMenu["W"].Cast<CheckBox>().CurrentValue)
-                        {
-                            W.Cast();
-                            {
-                                if (ComboMenu["E"].Cast<CheckBox>().CurrentValue)
-                                    if (target.IsValidTarget(E.Range) && E.IsReady())
-                                    {
-                                        E.Cast();
-                                        {
-                                            if (ComboMenu["R"].Cast<CheckBox>().CurrentValue)
-                                                if (target.IsValidTarget(R.Range) && R.IsReady())
-                                                {
-                                                    R.Cast();
-                                                }
-                                        }
-                                    }
-                            }
-                        }
-                    }
                 }
+                if (ComboMenu["E"].Cast<CheckBox>().CurrentValue)
+                    if (target.IsValidTarget(E.Range) && E.IsReady())
+                    {
+                        E.Cast();
+                    }
+                if (ComboMenu["R"].Cast<CheckBox>().CurrentValue)
+                    if (target.IsValidTarget(R.Range) && R.IsReady())
+                    {
+                        R.Cast();
+                    }
             }
         }
     }
