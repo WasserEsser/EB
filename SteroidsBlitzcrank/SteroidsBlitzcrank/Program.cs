@@ -14,8 +14,6 @@ namespace SteroidsBlitzcrank
     using EloBuddy.SDK.Menu.Values;
     using EloBuddy.SDK.Rendering;
 
-    using Microsoft.Win32;
-
     class Program
     {
         static void Main(string[] args)
